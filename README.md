@@ -38,7 +38,7 @@ private static void adalah kata kunci yang digunakan untuk mendefinisikan metode
 **Switch Steatment**'
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/d328eb02-9f7a-4485-b6ea-c1365fe9f644)
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/87f5f209-2b18-4dff-bc2f-35d4fa69ed4e)
-![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/c050dae0-2365-4f18-903f-cbb47e1b79cd)
+![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/618286eb-e597-4b67-8133-b35cf8ef4152)
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/baa032a1-63dd-44e4-9a19-9ce9413cb17c)
 
 **Class Bunga**
@@ -46,7 +46,7 @@ Kelas ini digunakan untuk merepresentasikan data bunga yang dapat dipesan dalam 
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/49586a64-3f5f-48c6-949f-a8e479bca1ac)
 
 **Class Order**
-> Kelas ini merepresentasikan pesanan yang dibuat oleh pelanggan. Setiap pesanan memiliki ID unik, daftar bunga yang dipesan, serta informasi pelanggan yang membuat pesanan tersebut.
+Kelas ini merepresentasikan pesanan yang dibuat oleh pelanggan. Setiap pesanan memiliki ID unik, daftar bunga yang dipesan, serta informasi pelanggan yang membuat pesanan tersebut.
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/ce134eef-3fbf-4828-b170-8a3a2a18e55d)
 
 **Class Customer**'
