@@ -5,7 +5,7 @@
 # KELAS : SISTEM INFORMASI A 222
 
 ## Penjelasan Program
-Program ini, dirancang dalam bahasa Java, bertujuan mempermudah pengelolaan bisnis toko bunga Cyra Florist menerapakan operasi CRUD (Create, Read, Update, Delete). Dengan mengaplikasikan prinsip-prinsip enkapsulasi, penggunaan setter-getter, dan koleksi ArrayList untuk penyimpanan data, program ini menjaga keamanan dan keteraturan data. Method-method bersifat "static" memungkinkan akses langsung ke operasi tertentu tanpa memerlukan pembuatan objek kelas, meningkatkan efisiensi. Dengan pendekatan ini, program ini memberikan manajemen data yang lebih baik, mempermudah operasional toko bunga, dan mendukung kelancaran bisnis sektor pertanian bunga. Dalam bisnis sehari-hari, manajemen data yang tepat sangat krusial, dan program ini menjadi solusi relevan dalam pengelolaan stok bunga, catatan pelanggan, serta pesanan bunga di toko bunga.
+Program ini, dirancang dalam bahasa Java, bertujuan mempermudah pengelolaan bisnis toko bunga Cyra Florist menerapakan operasi CRUD (Create, Read, Update, Delete). Dengan penggunaan setter-getter, dan koleksi ArrayList untuk penyimpanan data, program ini menjaga keamanan dan keteraturan data. Method-method bersifat "static" memungkinkan akses langsung ke operasi tertentu tanpa memerlukan pembuatan objek kelas, meningkatkan efisiensi. Dengan pendekatan ini, program ini memberikan manajemen data yang lebih baik, mempermudah operasional toko bunga, dan mendukung kelancaran bisnis sektor pertanian bunga. Dalam bisnis sehari-hari, manajemen data yang tepat sangat krusial, dan program ini menjadi solusi relevan dalam pengelolaan stok bunga, catatan pelanggan, serta pesanan bunga di toko bunga.
 
 ### Screenshoot dan penjelasan  Source code
 **CRUD**
