@@ -37,8 +37,8 @@ private static void adalah kata kunci yang digunakan untuk mendefinisikan metode
 
 **Switch Steatment**'
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/d328eb02-9f7a-4485-b6ea-c1365fe9f644)
-![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/87f5f209-2b18-4dff-bc2f-35d4fa69ed4e)
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/618286eb-e597-4b67-8133-b35cf8ef4152)
+![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/e34d3876-67a1-455f-8880-48cb7ab1de72)
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/baa032a1-63dd-44e4-9a19-9ce9413cb17c)
 
 **Class Bunga**
