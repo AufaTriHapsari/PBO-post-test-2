@@ -8,7 +8,7 @@
 Program ini, dirancang dalam bahasa Java, bertujuan mempermudah pengelolaan bisnis toko bunga Cyra Florist menerapakan operasi CRUD (Create, Read, Update, Delete). Dengan mengaplikasikan prinsip-prinsip enkapsulasi, penggunaan setter-getter, dan koleksi ArrayList untuk penyimpanan data, program ini menjaga keamanan dan keteraturan data. Method-method bersifat "static" memungkinkan akses langsung ke operasi tertentu tanpa memerlukan pembuatan objek kelas, meningkatkan efisiensi. Dengan pendekatan ini, program ini memberikan manajemen data yang lebih baik, mempermudah operasional toko bunga, dan mendukung kelancaran bisnis sektor pertanian bunga. Dalam bisnis sehari-hari, manajemen data yang tepat sangat krusial, dan program ini menjadi solusi relevan dalam pengelolaan stok bunga, catatan pelanggan, serta pesanan bunga di toko bunga.
 
 ### Screenshoot dan penjelasan  Source code
-> **CRUD**
+**CRUD**
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/58194e8c-3d31-4e8d-b264-54f23066ae1a)
 **Package com.mycompany.mainpt2**
 Merupakan package utama yang mengandung program inti untuk toko bunga. Di dalamnya, program menggunakan ArrayList dan Scanner untuk mengelola operasi sehari-hari dalam bisnis bunga, seperti manajemen pelanggan, pesanan, dan bunga. Package ini juga memanfaatkan kelas-kelas dari package lain, seperti Customer, Order, dan Bunga, untuk merepresentasikan data pelanggan, pesanan, dan bunga. Dengan demikian, program ini membantu pemilik toko bunga dalam mengoptimalkan operasional bisnis mereka.
@@ -35,21 +35,21 @@ Dengan metode `updateCustomer`, Anda dapat memperbarui informasi pelanggan yang 
 private static void adalah kata kunci yang digunakan untuk mendefinisikan metode. Kata kunci ini menunjukkan bahwa metode ini bersifat statis, artinya tidak terkait dengan instance objek tertentu dan dapat dipanggil langsung melalui kelas tanpa perlu membuat objek dari kelas Mainpt2. Dalam konteks metode, ini berarti metode ini dapat digunakan untuk melakukan tugas-tugas tertentu dalam program tanpa harus menciptakan objek Mainpt2. Dalam program toko bunga ini, metode tersebut digunakan untuk mengelola operasi seperti menambahkan pelanggan, membuat pesanan, menambahkan bunga ke dalam pesanan, menghapus bunga dari pesanan, dan melihat semua pesanan yang ada. Dengan menggunakan metode statis, pemanggilan metode-metode tersebut terkait dengan kelas Mainpt2, dan tidak diperlukan pembuatan instance objek dari kelas tersebut untuk menjalankannya.
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/d1d8301c-8435-4b4c-b03e-b2baa8c790d1)
 
-> **Switch Steatment**'
+**Switch Steatment**'
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/d328eb02-9f7a-4485-b6ea-c1365fe9f644)
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/87f5f209-2b18-4dff-bc2f-35d4fa69ed4e)
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/c050dae0-2365-4f18-903f-cbb47e1b79cd)
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/baa032a1-63dd-44e4-9a19-9ce9413cb17c)
 
-> **Class Bunga**
+**Class Bunga**
 Kelas ini digunakan untuk merepresentasikan data bunga yang dapat dipesan dalam sebuah pesanan. Setiap bunga memiliki atribut seperti nama, warna, dan harga.
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/49586a64-3f5f-48c6-949f-a8e479bca1ac)
 
-> **Class Order**
+**Class Order**
 > Kelas ini merepresentasikan pesanan yang dibuat oleh pelanggan. Setiap pesanan memiliki ID unik, daftar bunga yang dipesan, serta informasi pelanggan yang membuat pesanan tersebut.
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/ce134eef-3fbf-4828-b170-8a3a2a18e55d)
 
-> **Class Customer**'
+**Class Customer**'
 Kelas ini digunakan untuk merepresentasikan data pelanggan. Setiap pelanggan memiliki atribut seperti nama, alamat, nomor telepon, serta daftar pesanan yang telah dibuat.
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/58ee39e0-17e9-4ffe-98e0-05f4364304d7)
 
@@ -72,17 +72,18 @@ Berikut ini adalah penjelasan output program dari menu 1 hingga 6 beserta cara k
 ### Menu 3: Add Flower to Order
 - Output Program: Program akan meminta Anda untuk memasukkan nama pelanggan dan ID pesanan. Jika pelanggan dan pesanan ditemukan, program akan meminta informasi bunga seperti nama, warna, dan harga. Setelah informasi dimasukkan, program akan memberikan konfirmasi bahwa bunga berhasil ditambahkan ke dalam pesanan.
 - Cara Kerja: Ketika Anda memilih menu ini, program akan memanggil metode `addFlower()`. Anda diminta untuk memasukkan nama pelanggan dan ID pesanan yang ingin Anda tambahkan bunga ke dalamnya. Program akan mencari pelanggan berdasarkan nama dan pesanan berdasarkan ID. Jika pelanggan dan pesanan ditemukan, program akan meminta Anda memasukkan informasi bunga, dan kemudian bunga akan ditambahkan ke dalam pesanan.
+![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/9c7bf7a4-98da-45c5-90e5-e4ccb08ea63c)
 
 ### Menu 4: Delete Flower from Order
 - Output Program: Program akan meminta Anda untuk memasukkan nama pelanggan, ID pesanan, dan nama bunga yang ingin dihapus. Jika pelanggan, pesanan, dan bunga ditemukan, program akan menghapus bunga dari pesanan dan memberikan konfirmasi bahwa bunga berhasil dihapus.
 - Cara Kerja: Ketika Anda memilih menu ini, program akan memanggil metode `deleteFlower()`. Anda diminta untuk memasukkan nama pelanggan, ID pesanan, dan nama bunga yang ingin dihapus. Program akan mencari pelanggan, pesanan, dan bunga yang sesuai. Jika semuanya ditemukan, bunga akan dihapus dari pesanan.
-![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/8eed96f4-0152-444f-b06d-d8ec66452f76)
+![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/3046600b-e135-4b7c-95c0-55fe2fca8c1f)
 
 
 ### Menu 5: View All Orders
 - Output Program: Program akan menampilkan semua pesanan yang ada di toko bunga. Informasi pesanan mencakup nama pelanggan, ID pesanan, serta daftar bunga dalam setiap pesanan.
 - Cara Kerja: Ketika Anda memilih menu ini, program akan memanggil metode `viewAllOrders()`. Program akan menampilkan daftar semua pesanan yang ada di toko bunga, termasuk nama pelanggan, ID pesanan, dan daftar bunga dalam setiap pesanan.
-![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/8c9a3b44-87bf-4047-9850-8fcc10176a39)
+![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/62c36f1b-1172-4736-a9cc-43c7434f7c76)
 
 
 ### Menu 6: Update Customer
