@@ -47,12 +47,13 @@ Kelas ini digunakan untuk merepresentasikan data bunga yang dapat dipesan dalam 
 
 **Class Order**
 Kelas ini merepresentasikan pesanan yang dibuat oleh pelanggan. Setiap pesanan memiliki ID unik, daftar bunga yang dipesan, serta informasi pelanggan yang membuat pesanan tersebut.
-![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/ce134eef-3fbf-4828-b170-8a3a2a18e55d)
+![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/a7a17ff5-4a09-49ec-afd2-785f239c49b1)
+![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/fc68d8bb-9cf4-4001-b4be-eac505e3a2e3)
 
 **Class Customer**'
 Kelas ini digunakan untuk merepresentasikan data pelanggan. Setiap pelanggan memiliki atribut seperti nama, alamat, nomor telepon, serta daftar pesanan yang telah dibuat.
 ![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/58ee39e0-17e9-4ffe-98e0-05f4364304d7)
-
+![image](https://github.com/AufaTriHapsari/PBO-post-test-2/assets/122031507/b6f89e23-b86f-4d92-909a-34536ed80185)
 
 ### Screenshoot dan penjelasan Outpout
 
